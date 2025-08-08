@@ -14,16 +14,36 @@ First, make sure Node.js is installed.
 
 Then run these commands to install required packages:
 
-```bash
+```
+git clone https://github.com/rashedmamdouh/AI-Developer-Test
 npm install react-material-ui-carousel --save --legacy-peer-deps
 npm install axios ml-cart compute-cosine-similarity dotenv --legacy-peer-deps
-node api/implemented_work/test_aifeatures.js
 
+```
+
+### Test Ai_Features
+
+```
+cd ecommerce
+node api/implemented_work/test_aifeatures.js
 ```
 
 This will perform a smart search query, predict a product price dynamically, and output recommended products in the console.
 
 ---
+
+### Test Products_Query
+
+```
+cd ecommerce
+npm install react-material-ui-carousel --save --legacy-peer-deps
+npm start
+```
+In PostMan:
+http://localhost:4000/api/v1/products/all
+http://localhost:4000/api/v1/products?category=Electronics&minPrice=50&maxPrice=150
+
+
 
 ## AI Features Chosen
 
