@@ -1,0 +1,70 @@
+const staticProducts = {
+  products: [
+    {
+      id: 1,
+      name: "Wireless Headphones",
+      price: 99.99,
+      category: "Electronics",
+      description: "Premium wireless headphones with noise cancellation",
+      rating: 4.5,
+    },
+    {
+      id: 2,
+      name: "Smart Watch",
+      price: 149.99,
+      category: "Electronics",
+      description: "Fitness tracker with heart rate monitor",
+      rating: 4.7,
+    },
+    {
+      id: 3,
+      name: "Coffee Maker",
+      price: 79.99,
+      category: "Home Appliances",
+      description: "Automatic coffee maker with multiple settings",
+      rating: 4.3,
+    },
+    {
+      id: 4,
+      name: "Bluetooth Speaker",
+      price: 59.99,
+      category: "Electronics",
+      description: "Portable Bluetooth speaker with 10-hour battery",
+      rating: 4.6,
+    },
+    {
+      id: 5,
+      name: "Air Fryer",
+      price: 129.99,
+      category: "Home Appliances",
+      description: "Healthy cooking with minimal oil",
+      rating: 4.4,
+    },
+    {
+      id: 6,
+      name: "Gaming Mouse",
+      price: 69.99,
+      category: "Gaming",
+      description: "RGB gaming mouse with programmable buttons",
+      rating: 4.8,
+    },
+    {
+      id: 7,
+      name: "Fitness Band",
+      price: 49.99,
+      category: "Fitness",
+      description: "Activity tracker with sleep monitoring",
+      rating: 4.2,
+    },
+    {
+      id: 8,
+      name: "Smart Bulb",
+      price: 29.99,
+      category: "Smart Home",
+      description: "Voice-controlled LED bulb with color changing",
+      rating: 4.5,
+    },
+  ],
+};
+
+module.exports = staticProducts;
