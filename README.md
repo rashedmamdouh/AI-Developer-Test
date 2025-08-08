@@ -40,9 +40,10 @@ npm install react-material-ui-carousel --save --legacy-peer-deps
 npm start
 ```
 In PostMan:
+```
 http://localhost:4000/api/v1/products/all
 http://localhost:4000/api/v1/products?category=Electronics&minPrice=50&maxPrice=150
-
+```
 
 
 ## AI Features Chosen
